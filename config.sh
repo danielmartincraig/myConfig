@@ -1,6 +1,9 @@
 # Update packages
 sudo apt update
 
+# Install gi
+sudo apt install git
+
 # Install Spacemacs
 sudo apt install emacs25
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
