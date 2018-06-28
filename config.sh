@@ -12,6 +12,8 @@ git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 sudo snap install webstorm --classic
 # Install Intellij
 sudo snap install intellij-idea-ultimate --classic --edge
+# Install Mailspring
+sudo snap install mailspring
 
 # Create Repos Directory
 mkdir ~/Repos
