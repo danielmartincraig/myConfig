@@ -1,22 +1,12 @@
-# Update packages
+cd ~
+mkdir Repos
 sudo apt update
-
-# Install gi
-sudo apt install git
-
-# Install Spacemacs
-sudo apt install emacs25
-git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
-
-# Install Webstorm
-sudo snap install webstorm --classic
-# Install Intellij
-sudo snap install intellij-idea-ultimate --classic --edge
-# Install Mailspring
-sudo snap install mailspring
-
-# Create Repos Directory
-mkdir ~/Repos
-
-# Clone Repos
-git clone https://github.com/AlldredgeCraigSeniorProjectTeam/oral-history
+sudo apt -y upgrade 
+sudo apt install -y git
+snap install vscode --classic
+snap install mailspring --classic
+git config --global user.email "danielmartincraig@gmail.com"
+git config --global user.name "Daniel Craig"
+git clone https://github.com/AlldredgeCraigSeniorProjectTeam/oral-history Repos/oral-history
+git clone https://github.com/cs450CarruthSmithCraigTeam/cs450project Repos/cs450project      
+sudo apt install nvidia-384
