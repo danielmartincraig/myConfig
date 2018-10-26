@@ -3,6 +3,7 @@ mkdir Repos
 sudo apt update
 sudo apt -y upgrade 
 sudo apt install -y git
+sudo apt install -y python-pip
 snap install vscode --classic
 snap install mailspring --classic
 git config --global user.email "danielmartincraig@gmail.com"
